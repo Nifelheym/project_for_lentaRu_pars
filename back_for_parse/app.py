@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 #import pyodbc
 import json
-urlJson = '/home/eugene/Desktop/test/lentaRU/projectForResume/front_for_parse/static/news.json'
+urlJson = 'front_for_parse/static/news.json'
 def write_new(new, old_data=None):
         #print(new,old_data)
     if old_data is not None:
